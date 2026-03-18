@@ -63,5 +63,4 @@ Research engineer specializing in experimental data systems for biological resea
 - Email: [julien.ferragu@icloud.com](mailto:julien.ferragu@icloud.com)
 - LinkedIn: [linkedin.com/in/julienferragu](https://www.linkedin.com/in/julienferragu)
 - GitHub: [github.com/julienferragu](https://github.com/julienferragu)
-- Website: [julienferragu.github.io](https://julienferragu.github.io)
 - Resume: [julien-ferragu-resume.docx]({{ base_path }}/files/julien-ferragu-resume.docx)

@@ -32,9 +32,7 @@ redirect_from:
   </a>
 </div>
 
-## Evidence-driven focus
 
-This site is intentionally narrow. It is built as a compact evidence dossier rather than a broad personal-brand website, with emphasis on experimental systems for biological research, noisy signal processing, multimodal acquisition and the translation of research needs into usable tools.
 
 <div class="proof-links">
   <a class="btn btn--primary" href="{{ base_path }}/cv/">View CV</a>
