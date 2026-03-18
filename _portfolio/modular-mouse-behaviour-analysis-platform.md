@@ -8,19 +8,19 @@ card_label: "Case Study"
 
 ## Focus
 
-This case study is centered on experimental infrastructure rather than a single model. The key problem is how to build a behaviour analysis setup that remains usable when recordings are heterogeneous, annotations are costly and real-world experimental noise affects every stage of the workflow.
+At INSERM INMED, I designed and prototyped a modular behavioural analysis platform for mice. The objective was not a one-off prototype but an experimental setup that could support real acquisition constraints, evolving protocols and downstream analysis needs.
 
 ## System approach
 
-- Modular acquisition logic so recording components can evolve without rewriting the full pipeline.
-- Structured runs and metadata to keep experiments traceable and comparable over time.
-- Synchronization across behavioural streams, annotations and derived features.
-- Analysis outputs designed to support downstream monitoring and review, not only offline exploration.
+- Combined software, sensors, Arduino-based acquisition, soldering and 3D-printed components.
+- Structured acquisition and analysis workflows so experiments remained traceable and extensible.
+- Connected behavioural observations with downstream processing rather than treating acquisition and analysis as separate problems.
+- Built around research-team usability, with the goal of turning lab needs into practical tools.
 
 ## Technical value
 
-The differentiator is the combination of platform thinking and applied analysis: the same system has to support data capture, preprocessing, quality checks, feature extraction, classification workflows and practical inspection of results.
+The value of the project lies in the coupling of hardware and software design. It shows the ability to move from experimental constraints to a usable platform that supports acquisition, data organization and later analytical work on heterogeneous biological datasets.
 
 ## Relevance
 
-This work demonstrates an ability to build experimental systems where noisy inputs, changing setups and validation constraints are part of the design from day one.
+This work demonstrates fit for roles where sensing, signal quality, prototyping and multimodal experimental data have to be handled as one integrated system.

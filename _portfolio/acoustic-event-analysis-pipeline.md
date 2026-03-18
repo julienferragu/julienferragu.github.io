@@ -8,19 +8,19 @@ card_label: "Case Study"
 
 ## Focus
 
-Biological recordings are rarely clean. Useful events have to be separated from background noise, inconsistent recording conditions and artifacts without overfitting a fragile pipeline to one dataset.
+At INSERM INMED, and later during an internship at the Central Institute of Mental Health, I worked on mouse vocalisation analysis workflows for noisy biological recordings. The challenge was to extract useful acoustic events from heterogeneous datasets without building a brittle pipeline tied to one recording setup.
 
 ## Pipeline logic
 
-- Preprocessing stages oriented around signal quality and artifact handling.
-- Event-focused feature extraction to isolate patterns relevant for classification.
-- Reviewable outputs so model predictions can be checked against underlying recordings.
-- Clear separation between preprocessing, classification and validation steps.
+- Signal-focused preprocessing and segmentation for noisy recordings.
+- Feature extraction and clustering or machine-learning approaches to explore vocalisation patterns.
+- Workflow documentation and transfer so the resulting pipeline could be reused by the host research team.
+- Separation between preprocessing, event extraction and interpretation to keep the pipeline inspectable.
 
 ## Why it matters
 
-The strength of this work is not only classification performance. It is the ability to build a workflow that stays interpretable, inspectable and practical when the source data is noisy and biologically messy.
+The strength of this work is not only classification or clustering output. It is the ability to build a workflow that stays interpretable, transferable and useful when the source data is acoustically noisy and experimentally imperfect.
 
 ## Relevance
 
-This case study shows fit for problems involving noisy multimodal measurements, signal quality assessment and experimental pipelines that need to support both analysis and operational monitoring.
+This case study shows fit for problems involving noisy signals, feature extraction, classification-oriented workflows and scientific tool transfer in real research settings.

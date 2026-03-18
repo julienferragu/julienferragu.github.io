@@ -12,7 +12,7 @@ redirect_from:
 
 <p class="dossier-kicker">Experimental Data, Sensing &amp; Applied ML</p>
 
-<p class="dossier-lead">R&amp;D engineer building tools for noisy biological data: multimodal analysis, automation, signal pipelines and experimental platforms.</p>
+<p class="dossier-lead">Research engineer building tools for biological research: multimodal analysis, signal processing, automation and hardware-software prototyping for complex experimental data.</p>
 
 <div class="proof-grid">
   <a class="proof-card" href="{{ base_path }}/portfolio/modular-mouse-behaviour-analysis-platform/">
@@ -34,11 +34,13 @@ redirect_from:
 
 ## Evidence-driven focus
 
-This site is intentionally narrow. It is built as a compact evidence dossier rather than a broad personal-brand website, with emphasis on how experimental systems are designed, how noisy signals are processed, and how prototypes become tools that can be monitored and validated in practice.
+This site is intentionally narrow. It is built as a compact evidence dossier rather than a broad personal-brand website, with emphasis on experimental systems for biological research, noisy signal processing, multimodal acquisition and the translation of research needs into usable tools.
 
 <div class="proof-links">
   <a class="btn btn--primary" href="{{ base_path }}/cv/">View CV</a>
   <a class="btn" href="{{ base_path }}/portfolio/">View Portfolio</a>
+  <a class="btn" href="{{ base_path }}/files/julien-ferragu-resume.docx">Resume</a>
   <a class="btn" href="mailto:julien.ferragu@icloud.com">Email</a>
+  <a class="btn" href="https://www.linkedin.com/in/julienferragu">LinkedIn</a>
   <a class="btn" href="https://github.com/julienferragu">GitHub</a>
 </div>
