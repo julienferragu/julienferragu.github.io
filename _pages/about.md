@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Julien Ferragu"
-excerpt: "Experimental data, sensing and applied machine learning for noisy biological systems."
+excerpt: "Experimental data, sensing and applied machine learning."
 author_profile: true
 redirect_from:
   - /about/
@@ -14,31 +14,4 @@ redirect_from:
 
 <p class="dossier-lead">Research engineer building tools for biological research: multimodal analysis, signal processing, automation and hardware-software prototyping for complex experimental data.</p>
 
-<div class="proof-grid">
-  <a class="proof-card" href="{{ base_path }}/portfolio/modular-mouse-behaviour-analysis-platform/">
-    <span class="proof-label">Case Study</span>
-    <h2>Modular Mouse Behaviour Analysis Platform</h2>
-    <p>Experimental platform design for acquisition, synchronization, annotation and analysis of behavioural data in noisy settings.</p>
-  </a>
-  <a class="proof-card" href="{{ base_path }}/portfolio/acoustic-event-analysis-pipeline/">
-    <span class="proof-label">Case Study</span>
-    <h2>Acoustic Event Analysis Pipeline</h2>
-    <p>Signal-quality oriented workflow for noisy biological recordings, from preprocessing and feature extraction to classification review.</p>
-  </a>
-  <a class="proof-card proof-card--muted" href="{{ base_path }}/cv/">
-    <span class="proof-label">CV</span>
-    <h2>CV and Technical Snapshot</h2>
-    <p>A concise overview of technical fit: multimodal data handling, signal pipelines, monitoring and validation-oriented tooling.</p>
-  </a>
-</div>
 
-
-
-<div class="proof-links">
-  <a class="btn btn--primary" href="{{ base_path }}/cv/">View CV</a>
-  <a class="btn" href="{{ base_path }}/portfolio/">View Portfolio</a>
-  <a class="btn" href="{{ base_path }}/files/julien-ferragu-resume.docx">Resume</a>
-  <a class="btn" href="mailto:julien.ferragu@icloud.com">Email</a>
-  <a class="btn" href="https://www.linkedin.com/in/julienferragu">LinkedIn</a>
-  <a class="btn" href="https://github.com/julienferragu">GitHub</a>
-</div>
