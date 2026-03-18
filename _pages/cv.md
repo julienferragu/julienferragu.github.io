@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -9,56 +9,43 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Summary
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Julien Ferragu works on experimental data systems where signal quality is a constraint, not an afterthought. The focus is on noisy biological data, multimodal acquisition, classification workflows and the tooling needed to make those systems reliable enough for real monitoring use.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Core fit
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<div class="cv-section">
+  <div class="cv-card">
+    <h3>Signal quality and preprocessing</h3>
+    <p>Designing pipelines that deal with noise, artifacts, variable recording conditions and quality-control checkpoints before downstream modelling.</p>
+  </div>
+  <div class="cv-card">
+    <h3>Multimodal experimental data</h3>
+    <p>Working across synchronized recordings, metadata, annotations and derived features to support experimental analysis rather than isolated notebook outputs.</p>
+  </div>
+  <div class="cv-card">
+    <h3>Classification and monitoring tools</h3>
+    <p>Turning analysis workflows into usable tools with review loops, diagnostics, reproducibility and validation-oriented reporting.</p>
+  </div>
+</div>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Technical scope
+
+- Experimental platform design for acquisition, synchronization and dataset structuring.
+- Signal preprocessing, denoising strategy, event extraction and quality-control logic.
+- Feature engineering and classification workflows for noisy, imperfect biological data.
+- Monitoring and validation layers that make experimental outputs auditable and usable.
+- Automation of repetitive analysis steps to reduce manual review load.
+
+## Selected evidence
+
+- [Modular Mouse Behaviour Analysis Platform]({{ base_path }}/portfolio/modular-mouse-behaviour-analysis-platform/)
+- [Acoustic Event Analysis Pipeline for Noisy Biological Recordings]({{ base_path }}/portfolio/acoustic-event-analysis-pipeline/)
+- [Monitoring and Validation Tooling Note]({{ base_path }}/portfolio/monitoring-and-validation-tooling/)
+
+## Contact
+
+- Email: [julien.ferragu@icloud.com](mailto:julien.ferragu@icloud.com)
+- GitHub: [github.com/julienferragu](https://github.com/julienferragu)
+- Website: [julienferragu.github.io](https://julienferragu.github.io)

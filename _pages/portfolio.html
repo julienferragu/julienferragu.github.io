@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
@@ -7,8 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+This portfolio is intentionally focused: two detailed case studies and one short technical note, all centered on experimental systems, noisy biological data and validation-oriented tooling.
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="proof-grid proof-grid--portfolio">
+  {% assign portfolio_items = site.portfolio | sort: "order" %}
+  {% for post in portfolio_items %}
+    <a class="proof-card" href="{{ base_path }}{{ post.url }}">
+      <span class="proof-label">{{ post.card_label | default: "Case Study" }}</span>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.excerpt | strip_html | strip_newlines }}</p>
+    </a>
+  {% endfor %}
+</div>
