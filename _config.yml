@@ -9,7 +9,7 @@ baseurl                  : ""
 repository               : "julienferragu/julienferragu.github.io"
 
 author:
-  avatar           : "images/julienferragu.png"
+  avatar           : "julienferragu.png"
   name             : "Julien Ferragu"
   pronouns         :
   bio              : "Research engineer"
